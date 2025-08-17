@@ -19,3 +19,13 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+# Keep Compose classes
+-keep class androidx.compose.** { *; }
+# Keep coroutines
+-keep class kotlinx.coroutines.** { *; }
+# Keep JSON parsing (if using custom parsing)
+-keep class com.example.weather360.net.** { *; }
+
+-keep class io.ktor.** { *; }

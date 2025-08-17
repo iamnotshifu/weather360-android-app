@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base app theme -->
+    <style name="Theme.Weather360" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- No attributes needed for Compose -->
+    </style>
 
-    <style name="Theme.Weather360" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Splash theme -->
+    <style name="Theme.Weather360.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Weather360</item>
+    </style>
 </resources>
