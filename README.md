@@ -3,17 +3,18 @@
 Weather360 is a modern Android application built using **Jetpack Compose** to provide real-time weather information for any city worldwide. Powered by the **OpenWeatherMap API**, it displays temperature, weather description, and an icon representing current conditions. With a clean, intuitive UI, Weather360 offers a seamless experience for checking weather updates on the go.
 
 ## 📚 Table of Contents
+
 - [✨ Features](#-features)
-- [🖼️ Screenshots](#-screenshots)
+- [🖼️ Screenshots](#️-screenshots)
 - [⚙️ Installation](#️-installation)
 - [🚀 Usage](#-usage)
 - [🛠️ Technologies Used](#️-technologies-used)
 - [🧩 Challenges Encountered](#-challenges-encountered)
 - [👥 Team](#-team)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ## ✨ Features
+
 - 🌍 **City-based Weather Search**: Enter any city name to retrieve current weather data.
 - ⏱️ **Real-time Weather Data**: Displays temperature (Celsius), weather description, and weather icon.
 - 📱 **Responsive UI**: Built with Jetpack Compose for a modern, smooth, adaptive interface.
@@ -25,7 +26,9 @@ Weather360 is a modern Android application built using **Jetpack Compose** to pr
 - ⚙️ **Settings & Credits**: Includes screens for API key status, unit selection, and team credits.
 
 ## 🖼️ Screenshots
-*(Screenshots will be added after capturing from emulator/device.)*
+
+*All Screenshots and app previev can be found at:* [Weather360 folder](/Weather360/)
+
 - 🏠 **Home Screen**: City input field and "Get Weather" button.
 - 🌡️ **Weather Display**: Temperature, description, and icon after a successful API call.
 - ⚙️ **Settings Screen**: API key status and unit placeholder.
@@ -33,25 +36,33 @@ Weather360 is a modern Android application built using **Jetpack Compose** to pr
 - 🚫 **Error State**: Error message for invalid inputs or API failures.
 
 ## ⚙️ Installation
+
 To set up and run Weather360 locally:
 
 ### 📋 Prerequisites
+
 - 🖥️ **Android Studio**: Koala or later.
 - ☕ **JDK**: Version 17 or higher.
 - 🔑 **OpenWeatherMap API Key**: Obtain a free key from [OpenWeatherMap](https://openweathermap.org/).
 
 ### 🛠️ Steps
+
 1. **Clone the Repository**:
+
     ```bash
     git clone https://github.com/iamnotshifu/weather360.git
     ```
+
 2. **Open in Android Studio**:
    - File > Open > Select the cloned `weather360` folder.
+
 3. **Add API Key**:
    - Create/edit `local.properties` in the project root:
+
      ```properties
      WEATHER_API_KEY=your_openweathermap_api_key
      ```
+
 4. **Sync Project**:
    - Click **Sync Project with Gradle Files** in Android Studio.
 5. **Run the App**:
@@ -59,14 +70,16 @@ To set up and run Weather360 locally:
    - Click **Run** to build and deploy.
 
 ## 🚀 Usage
+
 1. Launch Weather360.
-2. Enter a city name (e.g., "Lagos", "London").
+2. Enter a city name (e.g., "Lagos, Nigeria", "London").
 3. Tap **Get Weather** to view 🌡️ temperature, 🌤️ description, and 🖼️ icon.
 4. Navigate to **Settings** to check API key status or unit settings.
 5. Visit **Credits** to see team details.
-6. If an error occurs, 🚫 a friendly error message appears.
+6. If an error occurs, 🚫 an error message appears.
 
 ## 🛠️ Technologies Used
+
 - 💻 **Language**: Kotlin
 - 🎨 **UI Framework**: Jetpack Compose
 - 🌐 **Networking**: Ktor Client (OkHttp)
@@ -84,6 +97,7 @@ To set up and run Weather360 locally:
   - androidx.lifecycle:lifecycle-viewmodel-compose
 
 ## 🧩 Challenges Encountered
+
 - 🌐 **API Integration**:
   - **Challenge**: Parsing JSON and handling API errors.
   - **Solution**: Used `JSONObject`, try-catch, and HTTP code checks in `OpenWeather.kt`.
@@ -104,35 +118,47 @@ To set up and run Weather360 locally:
   - **Solution**: Input validation and user-friendly error messages.
 
 ## 👥 Team
+
 - **Nyuiring-yoh Shifu-Nfor** – Lead Developer
   - 🛠️ App architecture, Jetpack Compose UI, API integration, signing
-  - 🔗 GitHub: [nforshifu234](https://github.com/nforshifu234)
-  - 📧 Email: nfor.shifu@example.com
-- **Sunday Daramfon** – Developer
-  - 🛠️ UI design, testing
-  - 🔗 GitHub: [sunday-daramfon](https://github.com/sunday-daramfon)
-- **Olawunmi Adebayo** – Developer
-  - 🛠️ API integration, error handling
-  - 🔗 GitHub: [olawunmi-adebayo](https://github.com/olawunmi-adebayo)
+  - 🔗 GitHub: [nforshifu234](https://github.com/iamnotshifu)
+  - 📧 Email: nforshifu.234"gmail.com
+- **Sunday Daramfon Emmanuel (22/1971)** – Developer
+  - 🛠️ Current Screen: API error handling, UI layout (UI design, testing)
+- **Talubi Samuel O. (22/1420)** – Developer
+  - 🛠️ Hourly Screen: Scroll UI, forecast parsing
+- **Oluwafemi Daramola Olawunmi** – Developer
+  - 🛠️ Daily Screen: Data grouping, date formatting
 - **Michael Jasper** – Developer
-  - 🛠️ Testing, documentation
-  - 🔗 GitHub: [michael-jasper](https://github.com/michael-jasper)
+  - 🛠️ API: Network calls, key setup
+- **Yisa Mordecai** – Developer
+  - 🛠️ Settings Screen: API key UI, placeholder units
+- **Adeleke Oluwakayode James** – Developer
+  - 🛠️ Credits Screen: Layout, team list
+- **Ojo Ayomide Samuel** – Developer
+  - 🛠️ Navigation: Bottom bar, route setup
+- **Odedele Segun** – Developer
+  - 🛠️ Main Activity: App init, ViewModel integration
 
 ## 🤝 Contributing
+
 1. Fork the repo.
 2. Create a branch:
+
     ```bash
     git checkout -b feature/your-feature
     ```
+
 3. Commit changes:
+
     ```bash
     git commit -m "Add your feature"
     ```
+
 4. Push:
+
     ```bash
     git push origin feature/your-feature
     ```
-5. Open a PR.
 
-## 📄 License
-Licensed under the MIT License. See [LICENSE](LICENSE) for details.
+5. Open a PR.
