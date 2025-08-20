@@ -119,7 +119,7 @@ To set up and run Weather360 locally:
 
 ## 👥 Team
 
-- **Nyuiring-yoh Shifu-Nfor** – Lead Developer
+- **Nyuiring-yoh R. Shifu-Nfor** – Lead Developer
   - 🛠️ App architecture, Jetpack Compose UI, API integration, signing
   - 🔗 GitHub: [nforshifu234](https://github.com/iamnotshifu)
   - 📧 Email: nforshifu.234"gmail.com
@@ -129,15 +129,15 @@ To set up and run Weather360 locally:
   - 🛠️ Hourly Screen: Scroll UI, forecast parsing
 - **Oluwafemi Daramola Olawunmi** – Developer
   - 🛠️ Daily Screen: Data grouping, date formatting
-- **Michael Jasper** – Developer
+- **Michael Jasper (22/3076)** – Developer
   - 🛠️ API: Network calls, key setup
-- **Yisa Mordecai** – Developer
+- **Yisa Mordecai (22/1890)** – Developer
   - 🛠️ Settings Screen: API key UI, placeholder units
 - **Adeleke Oluwakayode James** – Developer
   - 🛠️ Credits Screen: Layout, team list
-- **Ojo Ayomide Samuel** – Developer
+- **Ojo Ayomide Samuel (22/1829)** – Developer
   - 🛠️ Navigation: Bottom bar, route setup
-- **Odedele Segun** – Developer
+- **Odedele Segun (21/1850)** – Developer
   - 🛠️ Main Activity: App init, ViewModel integration
 
 ## 🤝 Contributing
