@@ -133,7 +133,7 @@ To set up and run Weather360 locally:
   - 🛠️ API: Network calls, key setup
 - **Yisa Mordecai (22/1890)** – Developer
   - 🛠️ Settings Screen: API key UI, placeholder units
-- **Adeleke Oluwakayode James** – Developer
+- **Adeleke Oluwakayode James (20/2933)** – Developer
   - 🛠️ Credits Screen: Layout, team list
 - **Ojo Ayomide Samuel (22/1829)** – Developer
   - 🛠️ Navigation: Bottom bar, route setup

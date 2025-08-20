@@ -28,7 +28,7 @@ fun CreditsScreen() {
         Text("• Oluwafemi Daramola Olawunmi - Daily Screen: Data grouping, date formatting")
         Text("• Michael Jasper (22/3076) - API: Network calls, key setup")
         Text("• Yisa Mordecai (22/1890) - Settings Screen: API key UI, placeholder units")
-        Text("• Adeleke Oluwakayode James - Credits Screen: Layout, team list")
+        Text("• Adeleke Oluwakayode James (20/2933) - Credits Screen: Layout, team list")
         Text("• Ojo Ayomide Samuel (22/1829) - Navigation: Bottom bar, route setup")
         Text("• Odedele Segun (21/1850) - Main Activity: App init, ViewModel integration")
 
