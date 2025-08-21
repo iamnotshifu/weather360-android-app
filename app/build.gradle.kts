@@ -15,7 +15,7 @@ android {
         applicationId = "com.example.weather360"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
+        versionCode = 2
         versionName = "2.0"
         ndkVersion = "29.0.13846066"
 
